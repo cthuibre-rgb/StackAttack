@@ -1,0 +1,34 @@
+stack attack test dump: 
+
+
+1.  typed input: appears to interrupt generation
+    
+        #for pNum in range (0, len(players)): #give all players a turn 
+            #for towerNum in range (0, len(players[pNum].army)):
+
+                #pieceAddingInput = str(players[pNum].name) + ", you may add a piece to tower " + str(towerNum) + ". Enter 'move', 'initiative', 'turn', or 'split' to choose the piece type: \n"
+
+                #pieceType = input(pieceAddingInput)
+                #players[pNum].army[towerNum].addPiece(pieceType)
+
+                #print(players[pNum].army[towerNum].sections[-1].moveCount)
+
+                #for i in range(0, len(players[pNum].army[towerNum].sections[-1].moveCount)):
+                    #directionInput = input("Enter the direction you want to move:\n")
+                    #playerDirs.append(hexGrid.hexD[directionInput])
+                    #print(playerDirs)
+                
+
+                # players[pNum].moveTower(towerNum, playerDirs)
+                # playerDirs = []
+                # print("\n")
+                # print("\n")
+
+                # print(pNum)
+                # print(towerNum)
+                # print("\n")
+                # print(players[pNum].army[0].pos)
+                # print("\n")
+                # print(running)
+                # print("\n")
+                # print("\n")
